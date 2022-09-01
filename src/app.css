@@ -1,0 +1,58 @@
+body {
+    background-color: #202020;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.btns {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.btn {
+    padding: 15px 40px;
+    text-align: center;
+    margin: 10px;
+    border-radius: 5px;
+    background: wheat;
+    font-weight: bold;
+}
+
+.title {
+    font-size: 2.7 rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 1rem;
+}
+
+.character {
+    background-color: rebeccapurple ;
+    text-align: left;
+    border-radius: 5px;
+}
+
+.character img {
+    border-radius: 5px 5px 0 0 ;
+}
+
+.charactertitle {
+    padding-left: 10px;
+}
+
+.h3title {
+    font-size: 0.8rem;
+    font-style: italic;
+
+}
